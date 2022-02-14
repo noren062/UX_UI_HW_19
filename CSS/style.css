@@ -8,16 +8,28 @@
     width: 100%;
     padding: 20px;
     font-size: 24px;
+    text-decoration: none;
+    
   }
   #navBar h1 {
     width: 25%;
     font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
   }
   #navigation {
     display: flex;
     width: 50%;
-    align-items: right;
+    align-items: center;
     justify-content: space-evenly;
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-family:"Gentium Book Basic", "serif";
+    align-items: center;
+    font-size: 34px;
   }
   .container {
     position: relative;
@@ -29,7 +41,7 @@
 
 .centered {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -55,7 +67,7 @@
   }
 .middle {
     position: absolute;
-    top: 42%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Gentium Book Basic", "serif";
@@ -127,18 +139,28 @@
     width: 100%;
     
 }
+
+.banner {
+  position: relative;
+  left: 418px;
+  top: 10px;
+  margin-bottom: 8px;
+  
+}
 .align {
-    position: absolute;
-    left: 150px;
-    top: 15px;
-    font-family: "Pacifico", "cursive";
-    font-size: 50px;
-    
+  font-family: "Pacifico", "cursive";
+  font-size: 54px;
+  font-style: normal;
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   
 }
 .research-content1 {
     position: absolute;
     right: 15px;
-    top: 200x;
+    top: 205x;
     font-family: "Gentium Book Basic", "serif";
     font-size: 25px;
     height:593px;
@@ -165,78 +187,64 @@
     width:45%;
     background: lightgray;}
 
-.research-content4 {
-    position: absolute;
+/* .research-content4 {
+    position: relative;
     right: 15px;
     top: 885px;
     font-family: "Gentium Book Basic", "serif";
     font-size: 25px;
     height:257px;
     width:45%;
-    background: lightgray;}
+    background: lightgray;} */
 
-.aboutMe {
-  position: absolute;
-  top: 250%;
-  left: 16%;
+.parent {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 .craft {
-  display: block;
-  position: absolute;
-  width: 1300px;
-  height: 974.21px;
-  top: 900px;
+  position: relative;
+  width: 100%
 }
-
 .amanda {
   position: absolute;
-  top: 2100px;
-  left: 0px;
-  position: absolute;
-  width: 450px;
-  height: 610px;
-  left: 157px;
-  top: 1060px;
-  background: #FFFFFF;
+  width: 35%;
+  left: 10%;
+  top: 15%;
   border-radius: 45px;
 }
 
-.hotdog {
-  position: relative;
-  width: 580px;
-  height: 79px;
-  left: 616px;
-  top: 1008px;
-  font-family:"Pacifico", "cursive";
-  font-style: normal;
-  font-weight: normal;
+.Hi {
+  position: absolute;
+  color: black;
+  font-family: "Pacifico", "cursive";
+  left: 1500px;
+  bottom: 775px;
+  /* I have no idea what's happening here */
   font-size: 48px;
-  line-height: 112px;
-  text-align: center;
-  color: #000000;
 }
-
+  
 .bio {
-  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 250px;
   width: 550px;
   height: 494px;
-  left: 656px;
-  top: 1020px;
   font-family: "Gentium Book Basic" , "serif";
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-  line-height: 29px;
+  /* line-height: 29px; */
   color: #000000;
-}
+} */
 
-.button2 {
-  position: absolute;
+/* .button{
+  position: relative;
   width: 256px;
   height: 69px;
-  left: 780px;
-  top: 1672px;
   color: black;
   font-style:italic;
   font-family: "Gentium Book Basic", "cursive";
@@ -246,23 +254,20 @@
   border-radius: 45px;
   background: rgba(139, 123, 68, 0.39);
   border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+} */
 
-/* no idea why its floating in the middle like that, it looks normal using local? */
 
 .workHeader {
-  display: block;
   position: absolute;
-  height: 974.21px;
-  margin-left: auto;
-  margin-right: auto;
-  top: 4400px;
-  
+  align-items: center;
 }
 .workBanner {
-  width: 200%;
-  height: 25%;
-  transform: translate(18%, 40%);
+  width: 50%;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+ 
+  
 }
 .northPole {
     position: absolute;
@@ -271,7 +276,7 @@
     font-family: "Pacifico", "cursive";
     font-size: 60px;
 }
-.flex-Container2 {
+.container2 {
   display: flex;
   flex-wrap: wrap;
   flex-flow: row wrap;

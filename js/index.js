@@ -1,1 +1,8 @@
-console.log("is my index loading")
+
+
+$(".container").hover(function(){
+    alert("hello there!");
+  },
+  function(){
+    alert("thanks for hovering!");
+  });
